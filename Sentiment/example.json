@@ -1,0 +1,18 @@
+[
+  {
+    "meta": {
+      "link" : "https://cnn.com/article/12342341243",
+      "date" : 1572140753000,                      
+      "source" : "cnn"
+    },
+    "text" : "China's industrial profits fall 5.3% in September" 
+  },
+  {
+    "meta" : {
+      "link" : "https://www.reuters.com/article/us-pentagon-jedi-microsoft/microsoft-appreciate-winning-jedi-contract-statement-idUSKBN1X50MH?il=0",
+      "date" : 1572141012000,
+      "source" : "reuters"
+    },
+    "text" : "Microsoft: 'appreciate' winning JEDI contract - statement"
+  }
+]
