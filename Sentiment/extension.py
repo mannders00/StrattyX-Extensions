@@ -23,4 +23,8 @@ def tl():
         }
     })
 
+if __name__ == '__main__':
+    app.run(5052)
+
+
 # in future should also make a gui or sth so people can test things out
