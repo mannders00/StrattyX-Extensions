@@ -19,8 +19,8 @@ def tl():
     
     return json.dumps({
         'timeline': {
-            ts : sentiment.calculateSentiment(feed)
+            ts : { 'value' : sentiment.calculateSentiment(feed) }
         }
     })
 
-# in future could also make a gui or sth so people can test things out
+# in future should also make a gui or sth so people can test things out
