@@ -4,7 +4,7 @@ import sentiment
 
 app = Flask(__name__)
 
-@app.route('/invoke/realtime', methods = ['POST'])
+@app.route('/invoke/live', methods = ['POST'])
 def rt():
     feed = request.json()['arguments']['Feed']
     return json.dumps({
