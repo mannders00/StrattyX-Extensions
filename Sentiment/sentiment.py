@@ -1,7 +1,7 @@
 import json
 import textblob
 
-# returns average polarity (sentiment) and subjectivity (significance)
+# returns average polarity (sentiment) and subjectivity
 def calculateSentiment(texts):	
 	out = [0.0, 0.0]
 	
@@ -17,5 +17,5 @@ def calculateSentiment(texts):
 
 	return {
 		'sentiment' : out[0],
-		'signifigance' : out[1]
+		'subjectivity' : out[1]
 	}
